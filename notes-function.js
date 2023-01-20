@@ -27,7 +27,7 @@ const pressGrindBeans = () => {
 }
 
 pressGrindBeans();
-
+// ^ The function acts like a 'button' to run the code.
 // // ----------
 
 let favColor = (color) => {

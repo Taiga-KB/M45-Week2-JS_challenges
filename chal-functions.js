@@ -22,7 +22,7 @@ const takeOrder = (size , topping) => {
 
 takeOrder("large" , "pineapple");
 
-// ----------Activity 3---------- COME BACK TO THIS
+// ----------Activity 3----------
 
 let accNum = 95757
 let pin = 4987;
@@ -44,7 +44,8 @@ const cashDispense = (amount, accNum) => {
 
         console.log("Exceeds limit")
     }
-
+// First checks if the pin is correct and the amount does not exceed the balance.
+// If either is false, will run through the other conditions
 }
 
 cashDispense(6000, accNum)
